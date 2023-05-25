@@ -1,0 +1,231 @@
+{
+  "codename": [
+    {
+      "cve":  [ "CVE-2012-4929" ],
+      "code": [ "Crime" ],
+      "tags": [ "ssl", "tls" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2011-3389" ],
+      "code": [ "Beast" ],
+      "tags": [ "rce", "sslv3", "tlsv1", "openssl" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2014-3704" ],
+      "code": [ "DrupalDungeon" ],
+      "tags": [ "csm", "durpal" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2014-0160", "CVE-2014-0346" ],
+      "code": [ "Heartbleed" ],
+      "tags": [ "rce", "openssl", "mitm" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2014-3566" ],
+      "code": [ "Poodle" ],
+      "tags": [ "rce", "sslv3", "openssl" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2014-8730" ],
+      "code": [ "Ghost" ],
+      "tags": [ "bof", "rce", "glibc" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2015-0204", "CVE-2015-1637" ],
+      "code": [ "Freak" ],
+      "tags": [ "mitm", "https" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2015-3456" ],
+      "code": [ "Venom" ],
+      "tags": [ "qemu", "escape", "privilege" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2015-3036" ],
+      "code": [ "NetUSB" ],
+      "tags": [ "router", "embedded", "rce", "linux", "kernel" ],
+      "link": "https://thehackernews.com/2015/05/netusb-router-hacking.html",
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2015-4000" ],
+      "code": [ "Logjam" ],
+      "tags": [ "mitm", "https", "ssh", "ipsec", "smtps", "tls", "dhe_export" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2016-2183" ],
+      "code": [ "Sweet32" ],
+      "tags": [ "openssl", "mitm" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2016-5159" ],
+      "code": [ "Dirty Cow" ],
+      "tags": [ "linux", "kernel", "root", "privilege" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2016-0800" ],
+      "code": [ "Drown" ],
+      "tags": [ "mitm", "https" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2016-7152" ],
+      "code": [ "Heist" ],
+      "tags": [ "mitm", "openssl" ],
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2017-1000251", "CVE-2017-1000252" ],
+      "code": [ "BlueBorne" ],
+      "tags": [ "android" ],
+      "category": "mobile"
+    },
+    {
+      "cve":  [ "CVE-2017-0144" ],
+      "code": [ "EternalBlue" ],
+      "tags": [ "windows", "software", "smbv1" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2017-13080" ],
+      "code": [ "Krack" ],
+      "tags": [ "wpa2", "eavesdrop" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2017-7494" ],
+      "code": [ "SambaCry" ],
+      "tags": [ "samba" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2017-5754" ],
+      "code": [ "Meltdown" ],
+      "tags": [ "intel", "processor", "side_channel", "info_disclosure" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2017-5753" ],
+      "code": [ "Spectre" ],
+      "tags": [ "intel", "processor", "side_channel", "info_disclosure" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2018-5383", "CVE-2018-5384" ],
+      "code": [ "Bleedingbit" ],
+      "tags": [ "ti", "bluetooth", "ble" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2019-0708" ],
+      "code": [ "Bluekeep" ],
+      "tags": [ "rdp", "rce", "microsoft" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2020-0796" ],
+      "code": [ "Smbghost" ],
+      "tags": [ "smb", "rce", "microsoft" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2020-1472" ],
+      "code": [ "Zerologon" ],
+      "tags": [ "netlogon", "rce", "microsoft", "domain_controller" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2020-0601" ],
+      "code": [ "Curveball" ],
+      "tags": [ "spoofing", "browser", "win10" ],
+      "link": "https://en.wikipedia.org/wiki/CurveBall_(security_vulnerability)",
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2020-1938" ],
+      "code": [ "Ghostcat" ],
+      "tags": [ "apache", "tomcat", "disclosure" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2020-16898" ],
+      "code": [ "Bad Neighbor" ],
+      "tags": [ "microsoft", "ipv6", "bsod" ],
+      "link": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/cve-2020-16898-bad-neighbor/",
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2020-1350" ],
+      "code": [ "SigRed" ],
+      "tags": [ "microsoft", "dns" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2021-34473", "CVE-2021-34523" ],
+      "code": [ "Proxyshell" ],
+      "tags": [ "microsoft", "exchange", "privilege" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2021-26855", "CVE-2021-26857", "CVE-2021-26858", "CVE-2021-27065" ],
+      "code": [ "ProxyLogon" ],
+      "tags": [ "microsoft", "exchange", "rce", "port_443", "wormable" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2021-36934" ],
+      "code": [ "HiveNightmare" ],
+      "tags": [ "microsoft", "privilege" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2021-44228" ],
+      "code": [ "Log4shell" ],
+      "tags": [ "rce", "apache", "struct", "jdk", "dos" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2022-42889" ],
+      "code": [ "Text4shell", "Act4shell" ],
+      "tags": [ "rce", "apache", "common", "java" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2022-30190" ],
+      "code": [ "Follina" ],
+      "tags": [ "word", "microsoft", "ms-msdt", "powershell" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2022-22965", "CVE-2022-22963" ],
+      "code": [ "Spring4shell" ],
+      "tags": [ "rce", "spring", "java9" ],
+      "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2001-20001" ],
+      "code": [ "DHEat" ],
+      "tags": [ "openssl", "dos" ],
+      "link": "https://dheatattack.com/",
+      "category": "crypto"
+    },
+    {
+      "cve":  [ "CVE-2014-6271", "CVE-2014-6277", "CVE-2014-6278", "CVE-2014-7169", "CVE-2014-7186", "CVE-2014-7187" ],
+      "code": [ "Shellshock", "Bashdoor" ],
+      "tags": [ "privilege", "bash", "dos", "shell" ],
+      "link": "https://shellshocker.net/",
+      "category": "attack"
+    }
+  ]
+}

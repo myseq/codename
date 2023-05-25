@@ -1,2 +1,6 @@
 # codename
-Codename for notable vulnerability and exploit.
+
+A JSON file with codename for notable vulnerability and exploit.
+
+
+
