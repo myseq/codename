@@ -1,2 +1,2 @@
 # codename
-Codename for list of vulnerability and exploit
+Codename for notable vulnerability and exploit.
