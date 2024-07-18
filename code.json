@@ -226,6 +226,13 @@
       "tags": [ "privilege", "bash", "dos", "shell" ],
       "link": "https://shellshocker.net/",
       "category": "attack"
+    },
+    {
+      "cve":  [ "CVE-2023-48795", "CVE-2023-46445", "CVE-2023-46446" ],
+      "code": [ "Terrapin" ],
+      "tags": [ "openssh", "integrity" ],
+      "link": "https://terrapin-attack.com/",
+      "category": "crypto"
     }
   ]
 }
